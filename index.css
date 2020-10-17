@@ -148,7 +148,7 @@ header{
 
 nav {
     display: flex;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .topnav {
@@ -156,7 +156,7 @@ nav {
 }
 
 .fa{
-    padding-right: 0.25rem;
+    /* padding-right: 0.25rem; */
     background: -webkit-linear-gradient(90deg, hsla(0, 96%, 28%, 1) 0%, hsla(214, 42%, 34%, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -167,12 +167,13 @@ nav {
     color: #A62C2B;
     padding-right: 0.25rem;
     padding-left: 0.25rem;
-    font-size: 400%;
+    padding-top: 0.95rem;
+    font-size: 300%;
     font-weight: bold;
 }
 input{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 1.5rem;
     border: 2px solid #E24A13;
 }
@@ -181,7 +182,7 @@ a{
     /* border: 2px solid white; */
     color: #32527b;
     font-weight: bold;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     text-decoration: none;
@@ -216,3 +217,41 @@ figcaption{
     text-align: center;
     font-weight: bold;
 }
+footer{
+    background: #D5B120;
+    opacity: 0.5;
+    display: flex;
+    padding: 1rem;
+}
+.bottomnav{
+    margin-left: auto;
+    padding-top: 0.5rem;
+}
+.socialmedia{
+    display: flex;
+    padding-left: 2rem;
+    font-size: 1rem;
+    width: 40%;
+    text-decoration: none;
+}
+.socialmedia .fa{
+    padding: 0.2rem;
+    font-size: 1rem;
+    width: 16.6%;
+    text-align: center;
+    text-decoration: none;
+    background: -webkit-linear-gradient(90deg, hsla(0, 96%, 28%, 1) 0%, hsla(214, 42%, 34%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
+.socialmedia .fa:hover {
+    color: #A62C2B;
+}
+.copyright{
+    color: #A62C2B;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    font-size: 0.5rem;
+}
+
+/*RESPONSIVE DESIGN - media quieries at 800 and 500px*/
