@@ -47,6 +47,7 @@ table {
 
 html {
     height: 100%;
+    width: 100%;
     font-size: 62.5%;
     font-family: 'Piazzolla', serif;
   background: url("https://i.ibb.co/g6c7bzp/karsten-winegeart-p-J6-HTjx-LV0-unsplash-cropped.jpg") no-repeat center center fixed;
@@ -76,6 +77,7 @@ img{
   padding: 1rem;
   opacity: 0.5;
   
+  
 }
 
 
@@ -83,7 +85,7 @@ img{
   font-size: 6rem;
   font-weight: bold;
   color: #992915;
-  margin: 0 0 0 -7rem
+  margin: 0 0 0 -7rem;
 }
 
 #nav_design {
@@ -108,16 +110,17 @@ img{
   }
 
   .music_suggestions1{
+    margin: 16rem -3rem 0 -3rem;
     display: flex;
     flex-wrap: row;
     justify-content: space-around;
-    width: 100%;
-    margin: 16rem 0 0 0;
+    width: ;
+    
   }
   
   #album_art {
-    height: 12rem;
-    width: 17rem;
+    height: 15rem;
+    width: 20rem;
     border: solid;
     margin: 0 0 6rem 0;
     background-color: white;
@@ -127,8 +130,7 @@ img{
      display: flex;
     flex-wrap: row;
     justify-content: space-around;
-    width: 100%;
-    margin: 10rem 0 0 0;
+    margin: 10rem -3rem 0 -3rem;
   }
 
   #headerForAlbums2{
@@ -167,6 +169,20 @@ img{
   a:hover{
     color: #992915;
     font-weight: bolder;
-    filter: alpha(opacity=1.0)
+    font-size: 3rem;
   }
   
+  /* Below this is the code for top charts page!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  #topChartsTitle{
+    margin: 5rem 0 0 0;
+  }
+
+  .topChartsStyle{
+    width: 100%;
+  }
+
+  .top100{
+    width: 100%;
+    height: 60%
+  }
