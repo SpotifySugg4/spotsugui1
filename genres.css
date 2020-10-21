@@ -201,7 +201,7 @@ nav a:hover{
     padding: 1rem;
     text-shadow: #A62C2B 1.5px 1px;
 }
-.teamgallery{
+.genresgallery{
     /* border: 10px solid white; */
     display: flex;
     flex-flow: row;
