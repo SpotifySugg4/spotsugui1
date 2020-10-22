@@ -192,7 +192,12 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
-.topnav .bottomnav a:hover{
+.topnav a:hover{
+    color: silver;
+    background: #32527b;
+    border-radius: 2px;
+}
+.bottomnav a:hover{
     color: silver;
     background: #32527b;
     border-radius: 2px;
