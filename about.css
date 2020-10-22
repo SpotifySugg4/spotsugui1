@@ -169,14 +169,14 @@ nav .fa{
     padding-right: 10rem;
     padding-left: 0.25rem;
     padding-top: 1rem;
-    font-size: 300%;
+    font-size: 400%;
     font-weight: bold;
 }
 input{
     border: 2px solid #E24A13;
     height: 1.5rem;
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 10rem;
     margin-left: 5rem;
 }
 
