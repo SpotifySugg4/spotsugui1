@@ -192,7 +192,7 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
-nav a:hover{
+a:hover{
     color: silver;
     background: #32527b;
     border-radius: 2px;
@@ -260,7 +260,7 @@ footer{
     color: #A62C2B;
     font-weight: bold;
     padding-top: 0.5rem;
-    font-size: 0.55rem;
+    font-size: 1rem;
 }
 
 /*RESPONSIVE DESIGN - media quieries at 800px*/
