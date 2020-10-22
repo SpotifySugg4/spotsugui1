@@ -223,10 +223,10 @@ figcaption{
     color: #E24A13;
     background-color: silver;
     opacity: 0.9;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: bold;
-    width: 25%;
+    width: 50%;
 }
 footer{
     background: #D5B120;
