@@ -233,15 +233,11 @@ footer{
     opacity: 0.7;
     display: flex;
     /* padding: 1rem; */
-    height: 4rem;
+    height: 6rem;
 }
 .bottomnav{
     margin-left: auto;
     padding-top: 0.5rem;
-}
-.bottomnav a:hover{
-    background-color: #32527b;
-    color: silver;
 }
 .socialmedia{
     display: flex;
