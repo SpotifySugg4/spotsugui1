@@ -234,6 +234,10 @@ footer{
     margin-left: auto;
     padding-top: 0.5rem;
 }
+.bottomnav a:hover{
+    background-color: #32527b;
+    color: silver;
+}
 .socialmedia{
     display: flex;
     padding-left: 7rem;
