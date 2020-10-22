@@ -176,15 +176,15 @@ input{
     border: 2px solid #E24A13;
     height: 1.5rem;
     margin-top: 1rem;
-    justify-content: center;
     padding-left: 2rem;
+    margin-left: 5rem;
 }
 
 a{
     /* border: 2px solid white; */
     color: #32527b;
     font-weight: bold;
-    font-size: 0.65rem;
+    font-size: 1rem;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     text-decoration: none;
