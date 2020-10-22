@@ -176,6 +176,8 @@ input{
     border: 2px solid #E24A13;
     height: 1.5rem;
     margin-top: 1rem;
+    justify-content: center;
+    padding-left: 2rem;
 }
 
 a{
