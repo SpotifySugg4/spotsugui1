@@ -1,0 +1,188 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** Your Code starts below **/
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: 'Piazzolla', serif;
+  background: url("https://i.ibb.co/g6c7bzp/karsten-winegeart-p-J6-HTjx-LV0-unsplash-cropped.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.top_sec {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  margin: 4rem 0 0 0;
+  background-color: #d5b120;
+  padding: 1rem;
+  opacity: 0.5;
+  
+  
+}
+
+
+#title {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #992915;
+  margin: 0 0 0 -7rem;
+}
+
+#nav_design {
+  display: flex;
+  flex-flow: row;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #992915;
+  background-color: ;
+  height: 2.5rem;
+  margin: 2rem 0 0 0;
+  }
+
+  #headerForAlbums1{
+    position:relative; left:10.3rem; top:12rem
+  }
+
+  .headerTitles {
+    font-size: 4rem;
+    color: #992915;
+    font-weight: bold;
+  }
+
+  .music_suggestions1{
+    margin: 16rem -3rem 0 -3rem;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    width: ;
+    
+  }
+  
+  #album_art {
+    height: 15rem;
+    width: 20rem;
+    border: solid;
+    margin: 0 0 6rem 0;
+    background-color: white;
+  }
+  
+  .music_suggestions2{
+     display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    margin: 10rem -3rem 0 -3rem;
+  }
+
+  #headerForAlbums2{
+    position:relative; left:10.3rem; top:6rem
+  }
+
+  .albumDescription {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 2rem 0 0 0;
+  }
+
+  .endNote{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #d5b120;
+    padding: 2rem;
+    margin: 10rem 0 0 0;
+    opacity: 0.5;
+  }
+
+  .footerStyle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #992915;
+
+  }
+  
+  a {
+    color: #992915;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #992915;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  
+  /* Below this is the code for top charts page!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  #topChartsTitle{
+    margin: 5rem 0 0 0;
+  }
+
+  .topChartsStyle{
+    width: 100%;
+  }
+
+  .top100{
+    width: 100%;
+    height: 60%
+  }
