@@ -211,6 +211,7 @@ nav a:hover{
     flex-wrap: wrap;
     align-items: center;
     padding-left: 6.5rem;
+    justify-content: center;
 }
 figure{
    justify-items: center;
