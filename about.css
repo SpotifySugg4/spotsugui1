@@ -226,6 +226,7 @@ figcaption{
     font-size: 0.9rem;
     text-align: center;
     font-weight: bold;
+    width: 25%;
 }
 footer{
     background: #D5B120;
