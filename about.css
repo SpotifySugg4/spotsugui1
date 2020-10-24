@@ -339,6 +339,9 @@ footer{
         border: 2px solid #E24A13;
         border-radius: 2px;
     }
+    .teamgallery{
+      justify-content: center;
+    }
     footer{
         background-color: #A62C2B;
         opacity: 0.7;
