@@ -325,7 +325,8 @@ footer{
     }
     input{
         border: 4px solid #32527b;
-        padding-right: 0.25rem; 
+        padding-right: 0.25rem;
+        margin-left: 0.01rem;
     }
     a{
         color: #D5B120;
