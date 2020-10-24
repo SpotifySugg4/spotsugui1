@@ -273,6 +273,7 @@ footer{
     header{
         background: silver;
         opacity: 0.5;
+        height: 4rem;
     }
     .title{
         font-size: 200%;
@@ -281,6 +282,9 @@ footer{
     nav .fa{
         font-size: 1.5rem;
         padding-top: 0.75rem;
+    }
+    input{
+        padding-right: 5rem;
     }
     .teamgallery{
         display: flex;
@@ -294,6 +298,8 @@ footer{
     figcaption{
         width: 200px;
     }
+  .socialmedia{
+    padding-left: 6rem;
 }
 /*Media quieries at 500px*/
 @media(max-width: 500px){
