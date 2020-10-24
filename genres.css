@@ -209,7 +209,7 @@ a{
     padding: 1rem;
     text-shadow: #A62C2B 1.5px 1px;
 }
-.teamgallery{
+.genresgallery{
     /* border: 10px solid white; */
     display: flex;
     flex-flow: row;
@@ -291,7 +291,7 @@ footer{
     a{
       font-size: 0.65rem;
     }
-    .teamgallery{
+    .genresgallery{
         display: flex;
     }
     figure{
@@ -339,7 +339,7 @@ footer{
         border: 2px solid #E24A13;
         border-radius: 2px;
     }
-    .teamgallery{
+    .genresgallery{
       justify-content: center;
       padding-left: 3rem;
     }
