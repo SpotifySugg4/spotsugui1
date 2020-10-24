@@ -293,9 +293,6 @@ footer{
     }
     .teamgallery{
         display: flex;
-        /* grid-template-columns: repeat(3, 33.3%);
-        gap: 0.5rem;
-        padding-right: 5rem; */
     }
     figure{
         width: 45%;
@@ -307,7 +304,7 @@ footer{
       height: 4rem;
     }
     .socialmedia{
-      padding-left: 3.5rem;
+      padding-left: 3rem;
     }
     .copyright{
       font-size: 0.65rem;
