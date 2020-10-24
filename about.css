@@ -303,9 +303,15 @@ footer{
     figcaption{
         width: 200px;
     }
-  .socialmedia{
-    padding-left: 6rem;
-}
+    footer{
+      height: 4rem;
+    }
+    .socialmedia{
+      padding-left: 4rem;
+    }
+    .copyright{
+      font-size: 0.65rem;
+    }
 /*Media quieries at 500px*/
 @media(max-width: 500px){
     header{
