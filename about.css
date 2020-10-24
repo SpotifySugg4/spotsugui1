@@ -302,6 +302,7 @@ footer{
     }
     footer{
       height: 4rem;
+      background-color: silver;
     }
     .socialmedia{
       padding-left: 3rem;
