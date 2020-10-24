@@ -341,6 +341,7 @@ footer{
     }
     .teamgallery{
       justify-content: center;
+      padding-left: 3rem;
     }
     footer{
         background-color: #A62C2B;
