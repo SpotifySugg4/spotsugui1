@@ -288,6 +288,9 @@ footer{
         margin-top: 1rem;
         margin-left: 0.05rem;
     }
+    a{
+      font-size: 0.75rem;
+    }
     .teamgallery{
         display: flex;
         /* grid-template-columns: repeat(3, 33.3%);
